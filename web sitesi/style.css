@@ -1,0 +1,143 @@
+#myLink{
+    color:red;
+}
+
+img{
+    height: 500px;
+    border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.center {
+  text-align: center;
+}
+
+#carouselExampleControls{
+    width: 800px;
+    margin: 0 auto;
+    border: 10px solid #ddd;
+    border-radius: 4px;
+}
+
+.jumbotron{
+    text-align: center;
+    margin-top: 20px;
+    opacity: 0.8;
+}
+.card{
+    margin-top: 5px;
+    height: 50px;
+    width: 5px;
+    border: 10px solid #ddd;
+    border-radius: 10px;
+    
+}
+
+
+.center-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.img-thumbnail{
+    height: 300px;
+    float:left;
+}
+
+body {
+    padding-top: 20px;
+  }
+  
+.card-group {
+    margin: 0 -15px;
+  }
+  
+.card-group .card {
+    margin: 0 0 1rem;
+  }
+  
+@media (min-width: 576px) and (max-width: 767.98px) {
+    .card-group .card {
+      -ms-flex: 0 0 50%;
+      flex: 0 0 50%;
+    }
+  }
+  
+ @media (min-width: 768px) and (max-width: 991.98px) {
+    .card-group .card {
+      -ms-flex: 0 0 33.3333%;
+      flex: 0 0 33.333333%;
+    }
+  }
+  
+  @media (min-width: 992px)
+  {
+    .card-group .card {
+      -ms-flex: 0 0 25%;
+      flex: 0 0 25%;
+    }
+  }
+ 
+  .sosyalbutonlar{
+    margin-top: 50px;
+    display: inline-block;
+    position: relative;
+    left: 200px;
+      
+    
+    }
+    
+  .sosyalbutonlar a  {
+    background:#a1a1a1;
+    text-decoration: none;
+    color: #FFF;
+    width: 60px;
+    height: 60px;
+    display: inline-block;
+    border-radius: 10px;
+    margin-right: 20px;
+    font-size: 30px;
+    overflow: hidden;
+    position: relative;
+    line-height: 60px;
+    text-align: center;
+    }
+      
+  .sosyalbutonlar a{  
+     transition: transform 0.4s linear 0s, 
+     border-top-left-radius 0.1s linear 0s, 
+     border-top-right-radius 0.1s linear 0.1s, 
+     border-bottom-right-radius 0.1s linear 0.2s, 
+     border-bottom-left-radius 0.1s linear 0.3s;
+     
+  }
+  
+  
+    .sosyalbutonlar .twitter:hover   {
+        background-color: #00aced;
+        transform: rotate(360deg);
+        border-radius: 50%;	 
+  }
+  
+   .sosyalbutonlar .instagram:hover   {
+        background-color: #bc2a8d;
+        transform: rotate(360deg);
+        border-radius: 50%;	 
+  }
+  @media only screen and (max-width: 992px) {
+    #carouselExampleControls{
+      width: 500px;
+      margin: 0 auto;
+      border: 10px solid #ddd;
+      border-radius: 4px;
+  }
+}
+  @media only screen and (max-width: 600px) {
+    #carouselExampleControls{
+      width: 400px;
+      margin: 0 auto;
+      border: 10px solid #ddd;
+      border-radius: 4px;
+  }
+}
